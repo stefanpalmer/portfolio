@@ -1,0 +1,45 @@
+
+html, body {
+  height: 100%;
+}
+
+a {
+  color: rgb(50,50,50);
+}
+
+/* ========================================================================
+                                  HOME:
+=========================================================================== */
+
+#home {
+  height: 100%;
+  font-family: 'Indie Flower', cursive;
+}
+
+#background-paint {
+  height: 100%;
+  background-image: url("../images/background-home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#box1 {
+  background-color: rgb(190,190,190);
+  margin-top: 70px;
+}
+
+#box2 {
+  background-color: rgb(190,190,190);
+  margin-top: 60px;
+}
+
+#box3 {
+  background-color: rgb(190,190,190);
+  margin-top: 30px;
+}
+
+#box4 {
+  background-color: rgb(190,190,190);
+  margin-top: 120px;
+}
