@@ -43,3 +43,39 @@ a {
   background-color: rgb(190,190,190);
   margin-top: 120px;
 }
+
+/* ========================================================================
+                                  ABOUT:
+=========================================================================== */
+
+#about {
+  height: 100%;
+}
+
+#background-bulbs {
+  height: 100%;
+  background-image: url("../images/background-bulbs.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+#about-box {
+  margin-top: 180px;
+  margin-bottom: 200px;
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
+#about-title {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#about-description {
+  font-family: 'Rancho', cursive;
+}
+
+#about-list {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Arima Madurai', serif;
+}
