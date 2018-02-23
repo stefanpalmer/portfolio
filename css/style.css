@@ -57,7 +57,7 @@ a {
   background-image: url("../images/background-bulbs.jpg");
   background-size: cover;
   background-position: center;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 #about-box {
@@ -78,4 +78,48 @@ a {
   margin-top: 10px;
   margin-bottom: 20px;
   font-family: 'Arima Madurai', serif;
+}
+
+/* ========================================================================
+                                  PROJECTS:
+=========================================================================== */
+
+#projects {
+  height: 100%;
+}
+
+#background-projects {
+  height: 100%;
+  background-image: url("../images/background-projects.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#projects-title {
+  background-color: rgba(150, 150, 200, 0.75);
+  margin-top: 18px;
+}
+
+#projects-title h2 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 41px;
+}
+
+#top-row-margin {
+  margin-top: 66px;
+}
+
+#second-row-margin {
+  margin-top: 5px;
+}
+
+.project-language {
+  background-color: rgba(150, 180, 200, 0.9);
+  font-family: 'Roboto', sans-serif;
+}
+
+.project-description {
+  background-color: rgba(150, 180, 200, 0.85);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
 }
