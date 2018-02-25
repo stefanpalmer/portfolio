@@ -24,24 +24,29 @@ a {
   background-attachment: fixed;
 }
 
-#box1 {
+#box1, #box2, #box3, #box4 {
   background-color: rgb(190,190,190);
+  animation-duration: 3s;
+}
+
+#box1 {
   margin-top: 70px;
+  animation-delay: 0.3s;
 }
 
 #box2 {
-  background-color: rgb(190,190,190);
   margin-top: 60px;
+  animation-delay: 1.3s;
 }
 
 #box3 {
-  background-color: rgb(190,190,190);
   margin-top: 30px;
+  animation-delay: 2.3s;
 }
 
 #box4 {
-  background-color: rgb(190,190,190);
   margin-top: 120px;
+  animation-delay: 3.3s;
 }
 
 /* ========================================================================
@@ -64,6 +69,7 @@ a {
   margin-top: 180px;
   margin-bottom: 200px;
   background-color: rgba(255, 255, 255, 0.92);
+  animation-duration: 2s;
 }
 
 #about-title {
@@ -98,6 +104,8 @@ a {
 #projects-title {
   background-color: rgba(150, 150, 200, 0.75);
   margin-top: 18px;
+  animation-duration: 1s;
+  animation-delay: 3.2s;
 }
 
 #projects-title h2 {
@@ -105,12 +113,19 @@ a {
   font-size: 41px;
 }
 
-#top-row-margin {
+#projects-top-row {
   margin-top: 66px;
+  animation-duration: 3s;
+  animation-delay: 0.2s;
 }
 
-#second-row-margin {
+#projects-second-row {
   margin-top: 5px;
+}
+
+#projects-second-row, #projects-third-row {
+  animation-duration: 2s;
+  animation-delay: 3.8s;
 }
 
 .project-language {

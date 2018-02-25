@@ -14,8 +14,13 @@
 
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker|Rancho|Arima+Madurai:800|Gochi+Hand|Roboto|Roboto+Condensed" rel="stylesheet">
+
   <!-- bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+  <!-- animate CSS -->
+  <!-- <link rel="stylesheet" href="css/animate/animate.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <!-- style CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -29,23 +34,23 @@
     <div id="background-paint">
       <div class="container">
         <div class="row">
-          <div class="col-xs-3 col-xs-push-5" id="box1">
+          <div class="col-xs-3 col-xs-push-5 animated fadeIn" id="box1">
             <h1>Stefan Palmer</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-2 col-xs-push-1" id="box2">
+          <div class="col-xs-2 col-xs-push-1 animated fadeIn" id="box2">
             <h1>About</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-2 col-xs-push-9" id="box3">
+          <div class="col-xs-2 col-xs-push-9 animated fadeIn" id="box3">
             <h1>Projects</h1>
           </div>
         </div>
         <div class="row">
           <a href="https://github.com/stefanpalmer">
-            <div class="col-xs-2 col-xs-push-5" id="box4">
+            <div class="col-xs-2 col-xs-push-5 animated fadeIn" id="box4">
               <h1>Github</h1>
             </div>
           </a>
@@ -58,7 +63,7 @@
   <section id="about">
     <div id="background-bulbs">
       <div class="container">
-        <div class="col-xs-6 col-sm-offset-3" id="about-box">
+        <div class="col-xs-6 col-sm-offset-3 wow rotateIn" id="about-box">
           <div class="row">
             <div class="col-xs-12">
               <h1 class="text-center" id="about-title">About</h1>
@@ -94,11 +99,11 @@
     <div id="background-projects">
       <div class="container">
         <div class="row">
-          <div class="col-xs-4 col-xs-offset-4" id="projects-title">
+          <div class="col-xs-4 col-xs-offset-4 wow bounceIn" id="projects-title">
             <h2 class="text-center">Projects</h2>
           </div>
         </div>
-        <div class="row" id="top-row-margin">
+        <div class="row wow slideInUp" id="projects-top-row">
           <div class="col-xs-4">
             <img src="images/project-book-app.png" class="img-responsive img-rounded" alt="asp.net project image">
           </div>
@@ -109,7 +114,7 @@
             <img src="images/project-asp-net.png" class="img-responsive img-rounded" alt="book app project image">
           </div>
         </div>
-        <div class="row" id="second-row-margin">
+        <div class="row wow lightSpeedIn" id="projects-second-row">
           <div class="col-xs-4">
             <h3 class="text-center project-language">Angular</h3>
           </div>
@@ -120,7 +125,7 @@
             <h3 class="text-center project-language">ASP.NET MVC</h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row wow lightSpeedIn" id="projects-third-row">
           <div class="col-xs-4">
             <p class="text-center project-description"><strong>Book App</strong> - Forms for entry of novels
             & anthologies, and a library for display of the stored books.</p>
@@ -138,6 +143,14 @@
 
     </div>
   </section>
+
+  <!-- JQuery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- Wow.js -->
+  <script src="js/wow.min.js"></script>
+  <!-- Script JS  -->
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>
