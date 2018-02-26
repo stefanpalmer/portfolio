@@ -7,6 +7,12 @@ a {
   color: rgb(50,50,50);
 }
 
+a:visited, a:link {
+  text-decoration: none;
+  color: rgb(50,50,50);
+}
+
+
 /* ========================================================================
                                   HOME:
 =========================================================================== */
@@ -47,6 +53,22 @@ a {
 #box4 {
   margin-top: 120px;
   animation-delay: 3.3s;
+}
+
+#box2:hover, #box3:hover, #box4:hover {
+  transform: scale(1.03);
+}
+
+a:hover #box2 {
+  color: rgb(198,130,51);
+}
+
+a:hover #box3 {
+  color: rgb(38,88,113);
+}
+
+a:hover #box4 {
+  color: rgb(160,30,30);
 }
 
 /* ========================================================================
@@ -126,6 +148,10 @@ a {
 #projects-second-row, #projects-third-row {
   animation-duration: 2s;
   animation-delay: 3.8s;
+}
+
+.proj-img :hover {
+  transform: scale(1.02);
 }
 
 .project-language {
