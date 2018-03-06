@@ -164,3 +164,26 @@ a:hover #box4 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
 }
+
+#padding-description {
+  padding: 2px;
+}
+
+#back-to-top {
+  border-color: #fff;
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 1px 10px;
+  display: none;
+}
+
+#back-to-top:hover, #back-to-top:focus {
+  border-color: blue;
+  color: blue;
+}
+
+#back-to-top h4 {
+  font-size: 24px;
+}
